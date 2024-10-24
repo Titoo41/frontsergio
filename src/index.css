@@ -1,0 +1,31 @@
+/* Estilos globales para el cuerpo */
+body {
+  margin: 0;
+  font-family: 'Lato', 'Arial', 'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', sans-serif; /* Cambio a la fuente 'Lato' */
+  background-color: #ffffff; /* Fondo blanco para todo el cuerpo */
+  color: #2c2c2c; /* Color de texto más oscuro */
+  line-height: 1.7; /* Espaciado entre líneas más amplio */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #1a1a1a; /* Fondo aún más oscuro en modo oscuro */
+  color: #d4d4d4; /* Color de texto ligeramente más claro */
+}
+
+/* Estilo para el código */
+code {
+  font-family: 'Source Code Pro', 'Menlo', 'Monaco', Consolas, 'Courier New', monospace; /* Cambiar a 'Source Code Pro' */
+  background-color: #e8e8e8; /* Fondo gris suave para bloques de código */
+  padding: 4px 8px; /* Más espacio interno */
+  border-radius: 5px; /* Bordes ligeramente redondeados */
+  color: #d9534f; /* Color de texto rojo oscuro para el código */
+  font-size: 85%; /* Fuente ligeramente más pequeña */
+}
+
+code.dark-mode {
+  background-color: #2e2e2e; /* Fondo oscuro para el código en modo oscuro */
+  color: #ff5555; /* Color rojo brillante para el código en modo oscuro */
+}
