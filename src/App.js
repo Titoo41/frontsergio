@@ -2,12 +2,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Dashboard from '../src/components/private/Dashboard/Dashboard';
+import Dashboard from './components/private/Dashboard/Dashboard';
 import Login from './components/public/Login';
 
-import UserList from '../src/components/private/User/UserList';
-import UserCreate from '../src/components/private/User/UserCreate';
-import UserEdit from '../src/components/private/User/UserEdit';
+import UserList from './components/private/User/UserList';
+import UserCreate from './components/private/User/UserCreate';
+import UserEdit from './components/private/User/UserEdit';
 
 import GamerList from './components/private/Gamer/GamerList';
 import GamerCreate from './components/private/Gamer/GamerCreate';
