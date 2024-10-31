@@ -1,17 +1,17 @@
-// src/App.js
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Dashboard from './src/components/private/Dashboard/Dashboard';
-import Login from './src/components/public/Login';
+import Dashboard from './components/private/Dashboard/Dashboard';
+import Login from './components/public/Login';
 
-import UserList from './src/components/private/User/UserList';
-import UserCreate from './src/components/private/User/UserCreate';
-import UserEdit from './src/components/private/User/UserEdit';
+import UserList from './components/private/User/UserList';
+import UserCreate from './components/private/User/UserCreate';
+import UserEdit from './components/private/User/UserEdit';
 
-import GamerList from './src/components/private/Gamer/GamerList';
-import GamerCreate from './src/components/private/Gamer/GamerCreate';
-import GamerEdit from './src/components/private/Gamer/GamerEdit';
+import GamerList from './components/private/Gamer/GamerList';
+import GamerCreate from './components/private/Gamer/GamerCreate';
+import GamerEdit from './components/private/Gamer/GamerEdit';
 
 import './App.module.css';
 
