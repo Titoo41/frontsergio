@@ -1,0 +1,102 @@
+/* Dashboard.css */
+
+/* Contenedor principal del Dashboard con cambio de fondo básico */
+.dashboard-container {
+  background: linear-gradient(135deg, #e0f7fa, #ffcdd2); /* Cambio de colores del fondo */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Otros estilos sin cambios */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-name {
+  font-size: 24px;
+  color: #1b5e20;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.logout-btn {
+  margin-left: 52rem;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+
+.logout-btn:hover {
+  background-color: #388e3c;
+}
+
+.tasks-section {
+  margin-top: 10px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tasks-title {
+  font-size: 28px;
+  color: #1b5e20;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  padding-top: 75px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Acomoda las tarjetas si no caben en una fila */
+}
+
+.fixed-card {
+  width: 300px;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffff, #bbdefb);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-icon {
+  font-size: 48px;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #1b5e20;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}

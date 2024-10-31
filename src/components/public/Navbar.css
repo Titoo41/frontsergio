@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.navbar-logo img {
+  width: 50px; /* Ajusta el tamaño del logo */
+}
+
+/* Links en la navbar */
+.navbar-links {
+  display: flex;
+}
+
+/* Botón de la navbar */
+.navbar-btn {
+  margin-left: 20px;
+  padding: 12px 25px; /* Aumentado para un botón más grande */
+  font-size: 16px;
+  background-color: #4caf50; /* Verde más suave, para coincidir con los otros botones */
+  color: white;
+  border: none;
+  border-radius: 30px; /* Bordes más redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra inicial */
+}
+
+.navbar-btn:hover {
+  background-color: #388e3c; /* Verde más oscuro al pasar el ratón */
+  transform: translateY(-2px); /* Leve elevación al hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hover */
+}

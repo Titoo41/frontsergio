@@ -1,0 +1,99 @@
+/* src/styles/FormMain.module.css */
+
+/* Contenedor principal */
+.wrapper {
+  padding: 35px; /* Espaciado ligeramente reducido */
+  background: linear-gradient(145deg, #b2ebf2, #fff9c4); /* Gradiente con un ángulo y colores suaves */
+  border-radius: 10px; /* Bordes ligeramente menos redondeados */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Sombra ajustada */
+  max-width: 620px; /* Ancho máximo ajustado */
+  margin: 0 auto;
+  transition: transform 0.25s ease-in-out; /* Transición más rápida */
+}
+
+.wrapper:hover {
+  transform: translateY(-8px); /* Elevación más pronunciada */
+}
+
+/* Título */
+.heading {
+  font-size: 30px; /* Tamaño de fuente reducido */
+  margin-bottom: 18px; /* Espaciado inferior ajustado */
+  color: #00695c; /* Color verde oscuro */
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Fuente diferente para variar */
+  font-weight: 700; /* Negrita */
+}
+
+/* Contenedor del formulario */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Espaciado ajustado */
+}
+
+/* Inputs */
+input {
+  padding: 12px; /* Espaciado interior ajustado */
+  border: 1px solid #cccccc; /* Borde gris más claro */
+  border-radius: 6px; /* Bordes menos redondeados */
+  font-size: 15px; /* Tamaño de fuente reducido */
+  transition: border-color 0.25s ease; /* Transición más rápida */
+}
+
+input:focus {
+  border-color: #004d40; /* Verde oscuro al enfocar */
+  outline: none;
+}
+
+/* Mensaje de error */
+.error-message {
+  color: #d32f2f; /* Rojo oscuro para errores */
+  text-align: center;
+  margin-top: 18px; /* Espaciado ajustado */
+}
+
+/* Contenedor para los botones */
+.actions {
+  display: flex;
+  justify-content: space-around; /* Botones separados por igual */
+  margin-top: 25px; /* Espaciado ajustado */
+}
+
+/* Botón de Volver */
+.back-btn {
+  padding: 10px 18px; /* Espaciado interior ajustado */
+  background-color: #ffb300; /* Amarillo oscuro */
+  color: #000;
+  border: none;
+  border-radius: 5px; /* Bordes menos redondeados */
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 13px; /* Fuente ligeramente más pequeña */
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.back-btn:hover {
+  background-color: #ffa000; /* Amarillo más oscuro */
+  transform: scale(1.03); /* Escala más sutil */
+}
+
+/* Botón de Crear */
+.submit-btn {
+  padding: 10px 18px;
+  background-color: #00897b; /* Verde un poco más oscuro */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.submit-btn:hover {
+  background-color: #00695c; /* Verde más oscuro en hover */
+  transform: scale(1.03); /* Escala más sutil */
+}

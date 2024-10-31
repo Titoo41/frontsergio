@@ -1,0 +1,82 @@
+/* src/styles/MainForm.module.css */
+
+/* Contenedor principal */
+.wrapper {
+  padding: 35px; /* Espaciado ajustado */
+  background: linear-gradient(145deg, #d1c4e9, #e8eaf6); /* Gradiente suave pero con un ángulo distinto */
+  border-radius: 10px; /* Bordes ligeramente menos redondeados */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Sombra suavizada */
+  max-width: 620px; /* Ancho máximo ajustado */
+  margin: 0 auto; /* Centrar horizontalmente */
+  transition: transform 0.25s ease-in-out; /* Efecto al pasar el mouse con una transición más rápida */
+}
+
+.wrapper:hover {
+  transform: translateY(-8px); /* Elevación un poco más pronunciada al pasar el ratón */
+}
+
+/* Título */
+.heading {
+  font-size: 30px; /* Tamaño de fuente ligeramente reducido */
+  margin-bottom: 18px; /* Espaciado inferior ajustado */
+  color: #6a4a86; /* Tono morado ajustado */
+  text-align: center; /* Centrado */
+  font-family: 'Poppins', sans-serif; /* Fuente moderna */
+  font-weight: 600; /* Negrita */
+}
+
+/* Contenedor del formulario */
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Espaciado ligeramente menor entre inputs */
+}
+
+/* Inputs */
+input {
+  padding: 14px; /* Espaciado interior ajustado */
+  border: 1px solid #d6d6d6; /* Borde suavizado */
+  border-radius: 6px; /* Bordes un poco menos redondeados */
+  font-size: 15px; /* Tamaño de fuente ajustado */
+  transition: border-color 0.2s ease; /* Transición más rápida al cambiar el borde */
+}
+
+input:focus {
+  border-color: #5e35b1; /* Color morado al enfocar */
+  outline: none;
+}
+
+/* Grupo de botones */
+.button-wrapper {
+  display: flex;
+  justify-content: space-around; /* Distribución distinta de los botones */
+  margin-top: 25px; /* Margen superior ajustado */
+}
+
+/* Botones */
+.btn {
+  padding: 10px 22px; /* Espaciado interior ajustado */
+  background-color: #5d478b; /* Morado ligeramente diferente */
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* Bordes menos redondeados */
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: background-color 0.2s ease, transform 0.2s ease; /* Transición más rápida */
+}
+
+/* Efecto hover en los botones */
+.btn:hover {
+  background-color: #73628d; /* Color más oscuro en hover */
+  transform: scale(1.03); /* Escala más sutil */
+}
+
+/* Botón de retroceso */
+.return-btn {
+  background-color: #e53935; /* Rojo menos brillante */
+}
+
+.return-btn:hover {
+  background-color: #8e3c3c; /* Rojo más oscuro al pasar el ratón */
+}

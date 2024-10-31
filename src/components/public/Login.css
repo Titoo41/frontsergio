@@ -1,0 +1,101 @@
+/* Importar la fuente globalmente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif; /* Fuente aplicada globalmente */
+}
+
+/* src/components/Login.css */
+.login-container {
+  background: linear-gradient(135deg, #f0f4c3, #e1bee7); /* Gradiente para mantener coherencia */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease; /* Efecto suave al pasar el ratón */
+}
+
+.login-card:hover {
+  transform: translateY(-8px); /* Efecto hover para levantar la tarjeta */
+}
+
+.login-card h2 {
+  font-family: 'Playfair Display', serif; /* Fuente elegante como las demás */
+  color: #5a4b41; /* Color marrón oscuro para el título */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.login-card p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.login-btn {
+  background-color: #1976d2; /* Azul marino para coincidir con el diseño */
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0d47a1; /* Azul más oscuro al pasar el ratón */
+  transform: scale(1.05); /* Aumento sutil del tamaño */
+}
+
+.details-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.details-card h3 {
+  color: #5a4b41; /* Color marrón oscuro */
+  margin-bottom: 10px;
+}
+
+.details-card p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Gradiente de fondo animado */
+@keyframes gradient {
+  0%, 100% { background-color: #b3e5fc; }
+  25% { background-color: #81d4fa; }
+  50% { background-color: #b2dfdb; }
+  75% { background-color: #b3e5fc; }
+}
+
+/* Sección alternativa de login */
+.login-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #c3f3ff, #a3d3ff); /* Nuevo degradado suave */
+}
+
+.logo {
+  width: 100px; /* Tamaño del logo */
+  margin-bottom: 20px;
+}

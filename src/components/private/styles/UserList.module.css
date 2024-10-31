@@ -1,0 +1,40 @@
+/* src/styles/UserList.module.css */
+
+.wrapper {
+  padding: 20px;
+  background-color: #f9fafc; /* Fondo claro para mantener consistencia */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.addBtn, .returnBtn {
+  margin-right: 12px; /* Espaciado entre botones */
+}
+
+.mainContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Sombra más suave para el contenedor */
+}
+
+.spinnerWrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alertMessage {
+  margin-top: 25px; /* Más espacio sobre la alerta */
+}
